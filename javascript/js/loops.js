@@ -84,50 +84,6 @@
 //     console.log(getPower(5, 3))
 // }
 
-{   
-//     const n = 20;
-//     function fizzBuzz(n) {
-//         for (let i = 0; i <= n; i++) {
-//             if (i % 6 === 0 && i % 3 === 0 && i !== 0) {
-//                 console.log("fizzBuzz");
-//             } else if (i % 6 === 0 && i !== 0) {
-//                 console.log("buzz");
-//             } else if (i % 3 === 0 && i !== 0) {
-//                 console.log("fizz");
-//             } else {
-//                 console.log(i);
-//             }
-//         }
-//     }
-    
-
-   
-//     fizzBuzz(n);
-    
-// }
-
-// {
-//     const inputString = "Hello, World!"; 
-//     const numberOfVowels = countVowels(inputString);
-
-// function countVowels(str) {
-//     let vowelCount = 0;
-//     const vowels = "aeiouAEIOU";
-    
-//     for (let char of str) {
-//         if (vowels.includes(char)) {
-//             vowelCount++;
-//         }
-//     }
-    
-//     return vowelCount;
-// }
-
-// console.log(`The number of vowels in "${inputString}" is ${numberOfVowels}.`);
-
-// }
-
-// }
 
 {
 const students = [
@@ -155,11 +111,10 @@ function arrayOfStudents(students) {
 
     // Print the students' names and their average marks
     studentAverages.forEach(student => {
-        console.log(`${student.name}: ${student.average.toFixed(2)}`);
+        console.log(`${z}: ${student.average.toFixed(2)}`);
     });
 }
 
 
 arrayOfStudents(students);
-}
 }
