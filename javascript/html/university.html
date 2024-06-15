@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Finder</title>
+    <style>
+
+input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+  
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#universityList {
+    margin-top: 20px;
+    text-align: left;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>University Finder</h1>
+        <input type="text" id="countryInput" placeholder="Enter a country name" />
+        <button onclick="fetchUniversities()">Search</button>
+        <div id="universityList"></div>
+    </div>
+    <script src="../js/university.js"></script>
+</body>
+</html>

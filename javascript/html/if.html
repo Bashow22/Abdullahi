@@ -3,11 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>if</title>
+    <title>Weather App</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.wallpapersafari.com/35/15/e35Vwz.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 105px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+  </style>
 </head>
 <body>
-    <p>statement is if</p>
-    
+    <div>
+        <input type="text" id="cityName" placeholder="Enter city name">
+        <br>
+        <button id="searchWeather">Search</button>
+    </div>
+    <div class="weather-info">
+        <p class="location"></p>
+        <p class="temperature"></p>
+        <p class="description"></p>
+        <img class="icon" src="" alt="">
+    </div>
+    <script src="../js/if.js"></script>
 </body>
-<script src="../js/if.js"></script>
 </html>
